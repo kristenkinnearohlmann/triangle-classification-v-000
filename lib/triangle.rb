@@ -12,8 +12,10 @@ class Triangle
   def kind
     binding.pry
     if (side1 == side2 && side2 == side3 && side3 == side1)
+      binding.pry
       :equilateral
     elsif (side2 == side3)
+      binding.pry
       :isosceles
     end
     binding.pry
