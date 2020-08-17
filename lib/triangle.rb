@@ -23,4 +23,6 @@ class Triangle
     triangle_kind
   end
 
+  class TriangleError < StandardError
+  end
 end
