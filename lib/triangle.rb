@@ -18,12 +18,13 @@ class Triangle
     binding.pry
     if (@side1 == @side2 && @side2 == @side3 && @side3 == @side1)
       binding.pry
-      :equilateral
+      triangle_kind = :equilateral
     elsif (@side2 == @side3)
       binding.pry
-      :isosceles
+      triangle_kind = :isosceles
     end
     binding.pry
+    triangle_kind
   end
 
 end
