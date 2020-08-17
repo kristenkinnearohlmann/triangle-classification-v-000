@@ -15,7 +15,7 @@ class Triangle
   def kind
     binding.pry
     if (@side1 == @side2 && @side2 == @side3 && @side3 == @side1)
-      pry
+      binding.pry
       triangle_kind = :equilateral
     elsif (@side2 == @side3)
       triangle_kind = :isosceles
