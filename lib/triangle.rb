@@ -10,6 +10,7 @@ class Triangle
     @side2 = side2
     @side3 = side3
     kind
+    binding.pry
   end
 
   def kind
