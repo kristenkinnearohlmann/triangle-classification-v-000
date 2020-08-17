@@ -16,6 +16,7 @@ class Triangle
     elsif (side2 == side3)
       :isosceles
     end
+    binding.pry
   end
 
 end
