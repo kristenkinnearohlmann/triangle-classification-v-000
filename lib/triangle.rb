@@ -9,8 +9,9 @@ class Triangle
     @side1 = side1
     @side2 = side2
     @side3 = side3
-    kind
+    triangle_kind = kind
     binding.pry
+    triangle_kind
   end
 
   def kind
