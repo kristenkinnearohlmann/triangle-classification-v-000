@@ -9,7 +9,14 @@ class Triangle
     @side1 = side1
     @side2 = side2
     @side3 = side3
-    self.kind
+
+    if (@side1 + @side2 + @side3 == 0)
+      begin
+        raise TriangleError
+      end
+    else
+      self.kind
+    end
   end
 
   def kind
