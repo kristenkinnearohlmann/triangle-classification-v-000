@@ -15,7 +15,7 @@ class Triangle
   def kind
     if (@side1 == @side2 && @side2 == @side3 && @side3 == @side1)
       triangle_kind = :equilateral
-    elsif (@side2 == @side3 || @side1 == @side3)
+    elsif (@side2 == @side3 || @side1 == @side3 || @side1 == @side 2)
       triangle_kind = :isosceles
     end
     triangle_kind
